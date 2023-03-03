@@ -56,7 +56,7 @@ def cmd_list():
         speak(i)
     time.sleep(0.3)
     print()
-    help_list=["ask followed by a prompt for answers to specific questions","joke,tell me a joke or a variation of it for tech jokes",'shorten followed by a url(s) to shorten em',"qr followed by any text to generate a qr code of said text",'cmd or help for this help message']
+    help_list=["ask followed by a prompt for answers to specific questions","joke,tell me a joke or a variation of it for tech jokes",'shorten followed by a url(s) to shorten em',"qr followed by any text to generate a qr code of said text",'cmd or help for this help message','_pdf followed by pdf name and year to search for and download a pdf file, the year is optional']
     for i in help_list:
         print(f"Type {i}")
         speak(f'Type {i}')
