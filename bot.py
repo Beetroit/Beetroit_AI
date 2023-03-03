@@ -1,13 +1,12 @@
 from chatterbot import  ChatBot
 from chatterbot.trainers import ListTrainer
 import logging
-#from keep_alive import webhook, keep_alive
 import time
 from speek import speak
 import pdfdrive
 
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.ERROR)
 #keep_alive()
 chatbot = ChatBot(
     "Beetroit",preprocessors = ["chatterbot.preprocessors.clean_whitespace","chatterbot.preprocessors.convert_to_ascii"],
