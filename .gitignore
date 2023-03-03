@@ -1,0 +1,9 @@
+.vscode/
+Beetroit.code-workspace
+Beetroit/
+wolf_id.txt
+*.exe
+__py*/
+templates/
+images/
+*.pdf
